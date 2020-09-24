@@ -168,6 +168,7 @@ operations = {
     "max": lambda *args: max(args),
     "merge": merge,
     "count": lambda *args: sum(1 if a else 0 for a in args),
+    "|": lambda a, b: (a | b)>0
 }
 
 
